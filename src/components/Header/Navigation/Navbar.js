@@ -3,13 +3,13 @@ import '../styles/navbar.css';
 
 export default function Navbar() {
     return (
-        <nav className="navbar sticky-header navbar-light bg-transparent py-3 bg-light">
+        <nav className="navbar navbar-light bg-transparent py-3 bg-light">
             <div className="container">
-                <a className="navbar-brand" href="#">Navbar</a>
+                <a className="navbar-brand" href="#">titilayo.</a>
                 
                 <nav className="nav justify-content-end">
-                    <a className="nav-link active" href="#">resume.</a>
-                    <a className="nav-link active" href="#">contact me.</a>
+                    <a className="nav-link" href="#">resume.</a>
+                    <a className="nav-link" href="#contact">contact me.</a>
                 </nav>
             </div>
         </nav>

@@ -6,12 +6,6 @@
     padding-bottom: 150px;
 }
 
-@media screen and (max-width: 768px) {
-    .wrapper {
-        padding-top: 75px;
-        padding-bottom: 75px;
-    }
-}
 
 .wrapper::before {
     position: absolute;
@@ -58,4 +52,18 @@
     background-color: rgb(86, 179, 129);
     transition: all 0.4s ease-out 0s;
     outline: none !important;
+}
+
+@media screen and (max-width: 768px) {
+    .wrapper {
+        padding-top: 75px;
+        padding-bottom: 75px;
+    }
+    
+    .title {
+        font-size: 39px;
+        color: rgb(22, 28, 45);
+        font-weight: 800;
+        font-family: 'Catamaran', sans-serif;
+    }
 }

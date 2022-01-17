@@ -8,7 +8,7 @@
 }
 
 .skill-logo {
-    width: 100px;
+    width: 80px;
     height: auto;
 }
 
@@ -29,4 +29,20 @@
 .experience-card:hover {
     color: #fafbfd;
     background: #1c2b4a;    
+}
+
+@media screen and (max-width: 768px) {
+    .skill-logo {
+        width: 45px;
+    }
+    .experience-card {
+        width: 180px;
+        height: 140px;
+        border: none;
+        transition: all .43s;
+    }
+    .experience-card h6 {
+        font-size: .65rem;
+        font-weight: 600;
+    }
 }

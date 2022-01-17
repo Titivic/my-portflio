@@ -9,8 +9,27 @@
 }
 
 .form_wrapper {
-    width: 420px;
+    width: 580px;
     padding: 25px 0 70px 0;
+}
+
+@media screen and (max-width: 768px) {
+    .contact-heading h3 {
+        font-family: 'Catamaran', sans-serif;
+        font-size: 48px;
+        font-weight: 700;
+    }
+    
+    .form_wrapper {
+        width: 420px;
+        padding: 25px 0 70px 0;
+    }
+}
+@media screen and (max-width: 480px) {    
+    .form_wrapper {
+        width: 320px;
+        padding: 25px 0 70px 0;
+    }
 }
 
 .form_wrapper .form-control {
@@ -34,7 +53,7 @@
 .form-label {
     font-size: .876rem;
     font-weight: 500;
-    color:snow;
+    color: #9d9da2;
 }
 
 .send-button {

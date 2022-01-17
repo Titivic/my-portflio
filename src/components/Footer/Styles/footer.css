@@ -4,6 +4,7 @@ footer {
 
 .site-description {
     color: #fff;
+    text-transform: uppercase;
 }
 
 .site-description span.logo-name {
@@ -21,8 +22,29 @@ footer {
     height: 35px;
     border: 1px solid #0b0b16;
     border-radius: 50%;
+    color: #56b381;
 }
 
 .social a:hover {
     color: springgreen;
+}
+
+@media screen and (max-width: 480px) {
+    .site-description {
+        color: #fff;
+        font-size: 13px;
+    }
+    
+    .social a {
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 22px;
+        width: 25px;
+        height: 25px;
+        border: 1px solid #0b0b16;
+        border-radius: 50%;
+        color: #56b381;
+    }
 }

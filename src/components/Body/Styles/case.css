@@ -15,3 +15,12 @@
     font-size: 70px;
     font-weight: 700;
 }
+
+@media screen and (max-width: 768px) {
+    .case-study-heading {
+        font-family: 'Catamaran', sans-serif;
+        color: #161c2d;
+        font-size: 56px;
+        font-weight: 700;
+    }
+}

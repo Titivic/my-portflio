@@ -7,14 +7,14 @@ export default function About() {
             <div className="container h-100">
                 <div className="row align-items-end py-3 h-100">
                     <div className="col-md-8 d-flex flex-column justify-content-center ">
-                        <h3 className="title mb-3">Let's talk about system security and networking!</h3>
+                        <h3 className="title mb-0">Let's talk about scaleable Business solutions...</h3>
                         {/* <p className="body">Hi, my name is Titilayo A. I am a computer networking expert with proven years of experience </p> */}
                     </div>
                     <div className="col-md-4">
-                        <button type="button" className="btn contact-button"> 
+                        <a href="#contact" className="btn contact-button"> 
                             <i class="fas fa-comment mr-3"></i>
                             Let's talk now 
-                        </button>
+                        </a>
                     </div>
                 </div>           
             </div>
