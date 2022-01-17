@@ -1,0 +1,17 @@
+.case-study-wrapper {
+    background: #ffffff;
+    padding-top: 120px;
+    padding-bottom: 100px;
+}
+
+.study-card {
+    width: 320px;
+    /* height: 200px; */
+}
+
+.case-study-heading {
+    font-family: 'Catamaran', sans-serif;
+    color: #161c2d;
+    font-size: 70px;
+    font-weight: 700;
+}

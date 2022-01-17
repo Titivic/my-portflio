@@ -1,0 +1,7 @@
+.sticky-header {
+    padding: 0px;
+    top: 0px;
+    right: 0px;
+    width: 100%;
+    position: fixed;
+}

@@ -1,0 +1,28 @@
+footer {
+    background: #070716;
+}
+
+.site-description {
+    color: #fff;
+}
+
+.site-description span.logo-name {
+    font-weight: 700;
+    font-family: 'Catamaran', sans-serif;
+}
+
+.social a {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    width: 35px;
+    height: 35px;
+    border: 1px solid #0b0b16;
+    border-radius: 50%;
+}
+
+.social a:hover {
+    color: springgreen;
+}

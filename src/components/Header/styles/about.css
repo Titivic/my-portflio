@@ -1,0 +1,61 @@
+.wrapper {
+    height: 480px;
+    /* background: #2e2e36; */
+    position: relative;
+    padding-top: 180px;
+    padding-bottom: 150px;
+}
+
+@media screen and (max-width: 768px) {
+    .wrapper {
+        padding-top: 75px;
+        padding-bottom: 75px;
+    }
+}
+
+.wrapper::before {
+    position: absolute;
+    top: 0px;
+    content: "";
+    width: 100%;
+    height: 120%;
+    background: url('https://folio-gatsby-live.netlify.app/static/hero-pattern-106cece575396688e6313fafd2a864c3.webp') center top / cover no-repeat;
+    z-index: -1;
+}
+
+.title {
+    font-size: 62px;
+    color: rgb(22, 28, 45);
+    font-weight: 800;
+    font-family: 'Catamaran', sans-serif;
+}
+
+.body {
+    color: #f0f0f0; 
+}
+
+.contact-button {
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1.63px;
+    text-transform: uppercase;
+    padding: 23px 30px;
+    box-shadow: rgb(3 3 3 / 12%) 0px 32px 54px;
+    border-radius: 50rem;
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    gap: 13px;
+    user-select: none;
+    transform: perspective(1px) translateZ(0px);
+    position: relative;
+    overflow: hidden;
+    border: none;
+    white-space: nowrap;
+    color: rgb(255, 255, 255);
+    background-color: rgb(86, 179, 129);
+    transition: all 0.4s ease-out 0s;
+    outline: none !important;
+}

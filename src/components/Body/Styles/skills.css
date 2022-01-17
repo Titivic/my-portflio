@@ -1,0 +1,32 @@
+.skill-area, .expertise {
+    background: #fafbfd;
+}
+
+.expertise {
+    position: relative;
+    padding: 30px 0 80px;
+}
+
+.skill-logo {
+    width: 100px;
+    height: auto;
+}
+
+.flex-gap {
+    gap: 30px;
+}
+
+.experience-card {
+    width: 230px;
+    height: 210px;
+    border: none;
+    transition: all .23s;
+}
+.experience-card h6 {
+    font-weight: 600;
+}
+
+.experience-card:hover {
+    color: #fafbfd;
+    background: #1c2b4a;    
+}
